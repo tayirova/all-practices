@@ -1,0 +1,26 @@
+;;; 
+Export: Release 19.0.0.0.0 - Production on Mon Jan 27 11:53:09 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Starting "C##ADMIN"."SYS_EXPORT_SCHEMA_01":  C##admin/******** schemas=C##admin directory=DP_DIR dumpfile=c##admin_schema.dmp logfile=c##admin_export.log 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+. . exported "C##ADMIN"."ADMIN_TABLE"                    5.531 KB       4 rows
+. . exported "C##ADMIN"."TABLE_FOR_READONLY"             5.539 KB       4 rows
+Master table "C##ADMIN"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for C##ADMIN.SYS_EXPORT_SCHEMA_01 is:
+  /u01/app/oracle/admin/dpdump/c##admin_schema.dmp
+Job "C##ADMIN"."SYS_EXPORT_SCHEMA_01" successfully completed at Mon Jan 27 11:55:15 2025 elapsed 0 00:02:03

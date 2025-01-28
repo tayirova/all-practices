@@ -1,0 +1,21 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Mon Jan 27 12:01:50 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "C##ADMIN"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "C##ADMIN"."SYS_IMPORT_SCHEMA_01":  C##admin/******** schemas=C##admin directory=DP_DIR dumpfile=c##admin_schema.dmp logfile=c##admin_import.log 
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "C##ADMIN"."ADMIN_TABLE"                    5.531 KB       4 rows
+. . imported "C##ADMIN"."TABLE_FOR_READONLY"             5.539 KB       4 rows
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Job "C##ADMIN"."SYS_IMPORT_SCHEMA_01" successfully completed at Mon Jan 27 12:02:37 2025 elapsed 0 00:00:43
