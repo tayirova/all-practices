@@ -1,0 +1,8 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: Удаление существующего контейнера (если есть)
+      shell: docker rm webapp || true
+
+    - name: Запуск нового контейнера
+      shell: docker run -d --name webapp -p 8080:80 webapp:latest
